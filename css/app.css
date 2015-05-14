@@ -1,0 +1,80 @@
+body{
+	background-color: #A3B18A;
+}
+#boards{
+	overflow: auto;
+	background-color: #2A2D25;
+	color: #DAD7CD;
+}
+#scoreBoard{
+	height: 150px;
+	float: left;
+}
+#leaderBoard{
+	height: 150px;
+	float: right;
+}
+#leaderBoard h3{
+	margin: 0;
+}
+#gameBoard{
+	background-color: #2A2D25;
+	min-width: 300px;
+	min-height: 300px;
+}
+.btn {
+  background: #A3B18A;
+  background-image: -webkit-linear-gradient(top, #A3B18A, #A3B18A);
+  background-image: -moz-linear-gradient(top, #A3B18A, #A3B18A);
+  background-image: -ms-linear-gradient(top, #A3B18A, #A3B18A);
+  background-image: -o-linear-gradient(top, #A3B18A, #A3B18A);
+  background-image: linear-gradient(to bottom, #A3B18A, #A3B18A);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #DAD7CD;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+}
+
+.btn:hover {
+  background: #4e7144;
+  background-image: -webkit-linear-gradient(top, #4e7144, #4e7144);
+  background-image: -moz-linear-gradient(top, #4e7144, #4e7144);
+  background-image: -ms-linear-gradient(top, #4e7144, #4e7144);
+  background-image: -o-linear-gradient(top, #4e7144, #4e7144);
+  background-image: linear-gradient(to bottom, #4e7144, #4e7144);
+  text-decoration: none;
+}
+
+.screen{
+	background-color: #4e7144;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.board{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row{
+	display: table-row;
+}
+.hole{
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-image: url('/images/hole.png');
+}
+.hole:hover{
+	cursor: url('/images/hammer.png'), auto;
+}
+.active{
+	background-image: url('/images/mole.png');	
+}
